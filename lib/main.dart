@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cep/core/theme/app_theme.dart';
+import 'package:flutter_cep/ui/home_screen.dart';
 
 void main() {
   runApp(const FlutterCepApp());
@@ -15,7 +16,7 @@ class FlutterCepApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: Container(),
+      home: HomeScreen(),
     );
   }
 }
